@@ -4,7 +4,7 @@ This file is mainly used to describe the work done by group 1
 This project is mainly focus on finding the optimal lens in different conditions (myopia or hyperopia) based on optimisation
 
 ## Assumption
-1. light in different wavelength have same refractive index when passing through the material(There is no dispersion when passing through the spectacle lens)
+1. light in different wavelength have same refractive index when passing through the material(There is no dispersion when passing through the lens)
 
 ## Background
 
@@ -58,4 +58,4 @@ Written and tested in Python 3.7
 ![image](https://user-images.githubusercontent.com/108578700/219814409-d29f64f4-7025-4257-bdd6-0b04eeb177af.png)
 
 
-## 
+## Measurement the performance of common eyeglass lens material 
