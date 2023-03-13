@@ -13,18 +13,22 @@ In myopia, the eye is too long or the cornea is too steep, which causes light to
 In hyperopia, the opposite occurs, where the eye is too short or the cornea is too flat, causing light to focus behind the retina instead of directly on it. This results in close-up objects appearing blurry while distant objects appear clear. (See figure 1 b)
 
 Figure 1a: Light rays converging and being focussed in front of the retina [2]
+
 <img width="201" alt="image" src="https://user-images.githubusercontent.com/124576025/224732571-17949069-9340-4fe8-9e60-039f44c63863.png">
 
 Figure 1b:Light converging and being focused behind the retina [2]
+
 <img width="202" alt="image" src="https://user-images.githubusercontent.com/124576025/224732044-551e80df-1fa1-4161-bc7a-ce438433c88e.png">
 
 
 Risk factors for both include age, genetics, and other underlying health conditions. Both can be treated using refractive surgery or orthokeratology; however, the most common method is using corrective lens in the form of glasses or contact lens. The lenses work by changing the way that light is refracted as it enters the eye, allowing it to focus directly on the retina. See Figure 2 and 3
 
 Figure 2: How hyperopia is corrected using a converging lens [2]
+
  <img width="251" alt="image" src="https://user-images.githubusercontent.com/124576025/224732127-ebd3fc2a-5814-4ab2-95bb-eda8056f6b09.png">
 
 Figure 3: How myopia is corrected using a diverging lens [2]
+
 <img width="249" alt="image" src="https://user-images.githubusercontent.com/124576025/224732185-53668852-ffb2-4165-be48-e9af74688d53.png">
 
 The different parameters important for the lens are curvature, thickness and refractive index. 
