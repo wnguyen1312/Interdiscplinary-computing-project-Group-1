@@ -59,3 +59,4 @@ Written and tested in Python 3.7
 
 
 ## Measurement the performance of common eyeglass lens material 
+- in this part we use the weight and price to measure the performance of the glasses. 
