@@ -27,7 +27,7 @@ Figure 1b:Light converging and being focused behind the retina [2]
 <img width="202" alt="image" src="https://user-images.githubusercontent.com/124576025/224732044-551e80df-1fa1-4161-bc7a-ce438433c88e.png">
 
 
-Risk factors for both include age, genetics, and other underlying health conditions. Both can be treated using refractive surgery or orthokeratology; however, the most common method is using corrective lens in the form of glasses or contact lens. The lenses work by changing the way that light is refracted as it enters the eye, allowing it to focus directly on the retina. See Figure 2 and 3
+Risk factors for both include age, genetics, and other underlying health conditions. Both can be treated using refractive surgery or orthokeratology; however, the most common method is using corrective lens in the form of glasses or contact lens. The lenses work by changing the way that light is refracted as it enters the eye, allowing it to focus directly on the retina. In myopia, the input will be a negative refractive power such as -1.5 dioptres and will result in the output of a diverging lens. Alternatively, in hyperopia, the patient will have a positive refractive power and will need a converging lens to correct their hyperopia. See Figure 2 and 3
 
 Figure 2: How hyperopia is corrected using a converging lens [2]
 
