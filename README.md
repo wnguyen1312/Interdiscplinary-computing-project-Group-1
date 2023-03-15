@@ -1,10 +1,16 @@
 # Interdiscplinary-computing-project-Group-1
 This file is mainly used to describe the work done by group 1
 ## Introduction
-This project is mainly focused on finding the optimal lens in different conditions (myopia or hyperopia) based on optimisation
+This project is mainly focused on finding the optimal lens in different conditions (myopia or hyperopia) based on optimisation.
+
+## Contribution
+Writing and testing the code: William Nguyen and Jingheng Peng.
+Research and poster presentation: Shreya Sridharan and Oliver Lam.
 
 ## Assumption
-1. light in different wavelength have same refractive index when passing through the material(There is no dispersion when passing through the lens)
+1. Constant refractive indicies in the material (no dispersion).
+2. Geometrical ray tracing holds (investigated length >> diffraction limit) 
+
 
 ## Background
 
@@ -35,18 +41,14 @@ The different parameters important for the lens are curvature, thickness and ref
 
 Spherical lens can suffer from spherical aberrations if the rays are not paraxial. Aberrations mean that highly deviated rays (i.e not paraxial) do not focus at the expected focal points. One way to counter this is through the use of adaptive optics, which involves essentially deforming the original spherical shapes. In terms of optimisation, we would measure the level of aberrations with the RMS spot size. The smaller the RMS spot size, the more focus your image is. The RMS spot size is found by tracing multiple rays through the system and working out the associated RMS value. Then, we will use some optimising routine from Scipy to obtain the deformation parameters to obtain the minimum RMS spot size. For a large number of parameters (I.e multiple lens / imaging system), we want to use the Nelder-Mead method, which is more robust as it is not gradient based. 
 
-## References
-
-[1]: "Facts About Refractive Errors". NEI. October 2010. Archived from the original on 28 July 2016. Retrieved 30 July 2016 
-
-[2] https://courses.lumenlearning.com/suny-physics/chapter/26-2-vision-correction/ [accessed on 27th February 2023] 
 
 
-## Optical-Ray-Tracer
+## Overview of the code
 
-Date: 27/11/2022
+Date: 15/03/2023
 
-By: William Nguyen
+By: William Nguyen, Oliver Lam, Shreya Sridharan, Jingheng Peng
+
 
 Written and tested in Python 3.7
 
@@ -91,5 +93,9 @@ Written and tested in Python 3.7
 ![image](https://user-images.githubusercontent.com/108578700/219814409-d29f64f4-7025-4257-bdd6-0b04eeb177af.png)
 
 
-## Measurement the performance of common eyeglass lens material 
-- in this part we use the weight and price to measure the performance of the glasses. 
+
+## References
+
+[1]: "Facts About Refractive Errors". NEI. October 2010. Archived from the original on 28 July 2016. Retrieved 30 July 2016 
+
+[2] https://courses.lumenlearning.com/suny-physics/chapter/26-2-vision-correction/ [accessed on 27th February 2023] 
