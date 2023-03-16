@@ -9,7 +9,7 @@ Created on Wed Mar 15 14:26:10 2023
 @author: williamnguyen
 """
 
-patient_power = 3 #dipotre
+patient_power = int(input("Please enter the patients refractive power in dioptre"))
 
 
 focal_length = 1/patient_power * 1000 #in mm 
@@ -76,4 +76,5 @@ min_rms = optimum.fun
 print('The optimum curvature combination is:', optimum_curvature
       , 'mm^-1')
 print('The minimised RMS is:', min_rms, 'mm')
+
         
