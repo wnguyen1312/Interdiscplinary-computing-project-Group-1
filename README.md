@@ -27,7 +27,7 @@ Figure 1b:Light converging and being focused behind the retina [2]
 <img width="202" alt="image" src="https://user-images.githubusercontent.com/124576025/224732044-551e80df-1fa1-4161-bc7a-ce438433c88e.png">
 
 
-Risk factors for both include age, genetics, and other underlying health conditions. Both can be treated using refractive surgery or orthokeratology; however, the most common method is using corrective lens in the form of glasses or contact lens. The lenses work by changing the way that light is refracted as it enters the eye, allowing it to focus directly on the retina. In myopia, the input will be a negative refractive power such as -1.5 dioptres and will result in the output of a diverging lens. Alternatively, in hyperopia, the patient will have a positive refractive power and will need a converging lens to correct their hyperopia. See Figure 2 and 3
+Risk factors for both include age, genetics, and other underlying health conditions. Both can be treated using refractive surgery or orthokeratology; however, the most common method is using corrective lens in the form of glasses or contact lens. The lenses work by changing the way that light is refracted as it enters the eye, allowing it to focus directly on the retina. In myopia, a diverging lens will cause light rays to spread out, due to its concave shape, before hitting the lens of the eye, causing the focal point to be longer. Conversely, in hyperopia a convex converging lens is used to converge light before entering the eye, cause the focal point to be shorter. See Figure 2 and 3
 
 Figure 2: How hyperopia is corrected using a converging lens [2]
 
@@ -41,7 +41,7 @@ The different parameters important for the lens are curvature, thickness and ref
 
 Spherical lens can suffer from spherical aberrations if the rays are not paraxial. Aberrations mean that highly deviated rays (i.e not paraxial) do not focus at the expected focal points. One way to counter this is through the use of adaptive optics, which involves essentially deforming the original spherical shapes. In terms of optimisation, we would measure the level of aberrations with the RMS spot size. The smaller the RMS spot size, the more focus your image is. The RMS spot size is found by tracing multiple rays through the system and working out the associated RMS value. Then, we will use some optimising routine from Scipy to obtain the deformation parameters to obtain the minimum RMS spot size. For a large number of parameters (I.e multiple lens / imaging system), we want to use the Nelder-Mead method, which is more robust as it is not gradient based. 
 
-
+the input will be a negative refractive power such as -1.5 dioptres and will result in the output of a diverging lens
 
 ## Overview of the code
 
