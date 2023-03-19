@@ -50,11 +50,11 @@ for j in range(len(bundle1)):
     plt.xlabel('z / mm',fontsize=15)
     plt.ylabel('x / mm',fontsize=15)
 
-#Plotting optical elements
+# Plotting optical elements
 plt.axvline(x=200, label='Screen',color='black')
-zplot = np.linspace(-33.3,33.3,10000)
-plt.plot(133.33-np.sqrt(33.3**2 - zplot**2),zplot,label='Surface')
-plt.ylim(-10,10)
+zplot = np.linspace(-33.3, 33.3, 10000)
+plt.plot(133.33-np.sqrt(33.3**2 - zplot**2), zplot, label='Surface')
+plt.ylim(-10, 10)
 plt.legend()
 plt.savefig('Task12.png',dpi=500, bbox_inches='tight')
 

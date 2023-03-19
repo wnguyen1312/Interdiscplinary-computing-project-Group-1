@@ -128,7 +128,7 @@ for i in range(len(beam)):
 plt.scatter(x,y,color='blue', marker='o')
 plt.xlabel('x / mm',fontsize=15)
 plt.ylabel('y / mm',fontsize=15)
-
+plt.show()
 rms_1 = optimisation.rms(x,y)
 
 print('RMS spot size is', rms_1 , 'mm')

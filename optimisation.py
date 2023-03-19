@@ -42,7 +42,7 @@ def rms(x, y):
 
 
 
-def system_rms(c, z0, z1, z2, D):
+def system_rms(c, z0, z1, z2, D,I1=1,I2=1.5618):
     
     """ FUNCTION THAT CALCULATES RMS AT A GIVEN POINT 
     IN AN OPTICAL SYSTEM (glass and air)
@@ -56,6 +56,8 @@ def system_rms(c, z0, z1, z2, D):
     z1: position of surface 2(on the z axis)
     z2: position of the screen (on the z axis)
     D: diameter of the beam bundle 
+    I1: refractive index of air always 1
+    I2: refractive index of material
     
     Returns:
     ----------
@@ -68,14 +70,14 @@ def system_rms(c, z0, z1, z2, D):
     bundle = rt.Bundle(D,10).make_bundle()
     
     if C1 == 0: 
-        surface1 = rt.SphericalRefraction(z0, C1, 1, 1.5168, 60)
+        surface1 = rt.SphericalRefraction(z0, C1, I1, I2, 60)
     else: 
-        surface1 = rt.SphericalRefraction(z0, C1, 1, 1.5168, np.abs(1/C1))
+        surface1 = rt.SphericalRefraction(z0, C1, I1, I2, np.abs(1/C1))
     
     if C2 == 0: 
-        surface2 = rt.SphericalRefraction(z1, C2, 1.5168, 1, 60)
+        surface2 = rt.SphericalRefraction(z1, C2, I2, I1, 60)
     else: 
-        surface2 = rt.SphericalRefraction(z1, C2, 1.5168, 1, np.abs(1/C2))
+        surface2 = rt.SphericalRefraction(z1, C2, I2, I1, np.abs(1/C2))
         
     screen = rt.OutputPlane(z2)
     

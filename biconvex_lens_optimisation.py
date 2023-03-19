@@ -17,12 +17,12 @@ Created on Mon Nov  7 10:49:21 2022
 import optimisation 
 import scipy.optimize as op 
 
-
+# class finding_curvature(focal_point):
 c0 = 0.02 # initial guess for the first curvature 
 c1 = -0.02 # initial guess for second curvature 
 
 # sets focus to the paraxial focus of the planoconvex lens to compare rms.
-focus_point = 198.452700178 
+focus_point = 2 
 
 
 #setting up bound for optimisation
